@@ -68,7 +68,7 @@ void mahasiswa::output(){
 	for(int a=0; a < mk; a++)
 	cout<< matkul[a] << "\t\t" << sks[a] << endl;
 	garis2(50);
-	cout<< "\nTotal pembayaran : Rp. "<<diskon << endl;
+	cout<< "\nTotal pembayaran : Rp. "<<diskon<< endl;
 }
 
 int main(){
